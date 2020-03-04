@@ -1,0 +1,10 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node_unpromote_action
+label: 'Retirar el contenido de la página principal'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

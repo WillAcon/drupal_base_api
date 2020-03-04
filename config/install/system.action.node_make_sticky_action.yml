@@ -1,0 +1,10 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node_make_sticky_action
+label: 'Hacer que el contenido quede fijo al principio de las listas'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

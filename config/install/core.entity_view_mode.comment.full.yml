@@ -1,0 +1,9 @@
+langcode: es
+status: false
+dependencies:
+  module:
+    - comment
+id: comment.full
+label: 'Comentario completo'
+targetEntityType: comment
+cache: true

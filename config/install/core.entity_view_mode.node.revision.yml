@@ -1,0 +1,13 @@
+langcode: es
+status: false
+dependencies:
+  enforced:
+    module:
+      - ds_extras
+      - node
+  module:
+    - node
+id: node.revision
+label: Revisión
+targetEntityType: node
+cache: true

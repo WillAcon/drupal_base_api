@@ -1,0 +1,11 @@
+{
+  "name": "drupal_base/drupal_base",
+  "type": "drupal-profile",
+  "description": "Drupal 8.x installation profile",
+  "homepage": "https://github.com/WillAcon/drupal_base",
+  "license": "GPL-2.0+",
+  "require": {
+    "drupal/admin_toolbar": "~2.0",
+    "drupal/swiftmailer": "~1.0"
+  }
+}

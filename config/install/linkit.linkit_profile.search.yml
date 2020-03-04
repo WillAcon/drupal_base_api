@@ -1,0 +1,25 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - imce
+    - node
+third_party_settings:
+  imce:
+    use: false
+    scheme: public
+id: search
+label: Search
+description: ''
+attributes: {  }
+matchers:
+  30074baa-0b13-481a-b70d-53ce083ea384:
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: '[node:title]'
+      bundles:
+        article: article
+        page: page
+      group_by_bundle: true
+      include_unpublished: false

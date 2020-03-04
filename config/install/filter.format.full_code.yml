@@ -1,0 +1,15 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - twig
+name: 'Full code'
+format: full_code
+weight: 0
+filters:
+  filter_twig:
+    id: filter_twig
+    provider: twig
+    status: true
+    weight: -22
+    settings: {  }

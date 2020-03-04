@@ -1,0 +1,10 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_publish_action
+label: 'Publicar comentario'
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }
